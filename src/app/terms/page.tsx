@@ -162,9 +162,9 @@ export default function TermsPage() {
 							<p className='text-gray-500'>
 								We reserve the right to modify or replace these
 								Terms at any time. If a revision is material, we
-								will provide at least 30 days' notice prior to
-								any new terms taking effect. What constitutes a
-								material change will be determined at our sole
+								will provide at least 30 days&apos; notice prior
+								to any new terms taking effect. What constitutes
+								a material change will be determined at our sole
 								discretion.
 							</p>
 						</div>
