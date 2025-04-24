@@ -5,6 +5,7 @@ import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Analytics } from "@/components/analytics";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,7 +16,9 @@ export const metadata: Metadata = {
 	keywords:
 		"pdf to word, word to pdf, convert pdf, convert word, free converter, online converter, document conversion",
 	generator: "v0.dev",
-	metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'),
+	metadataBase: new URL(
+		process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"
+	),
 };
 
 export default function RootLayout({
@@ -25,6 +28,14 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang='en' suppressHydrationWarning>
+			<head>
+				<Analytics />
+				<link
+					rel='sitemap'
+					type='application/xml'
+					href='/sitemap.xml'
+				/>
+			</head>
 			<body className={inter.className} suppressHydrationWarning>
 				<ThemeProvider
 					attribute='class'
