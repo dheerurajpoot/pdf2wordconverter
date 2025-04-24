@@ -80,7 +80,7 @@ export async function POST(req: NextRequest) {
 			// Create paragraphs from lines with formatting
 			const pageParagraphs = Array.from(lineMap.entries())
 				.sort(([y1], [y2]) => y2 - y1)
-				.map(([_, items]) => {
+				.map(([, items]) => {
 					// Sort items by x position
 					const sortedItems = items.sort((a, b) => a.x - b.x);
 
