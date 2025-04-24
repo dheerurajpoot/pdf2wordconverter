@@ -24,9 +24,9 @@ export default function Testimonials() {
 						<CardContent className='p-6'>
 							<QuoteIcon className='h-8 w-8 text-purple-300 mb-4' />
 							<p className='text-gray-500 mb-4'>
-								"This tool saved me so much time! I needed to
-								convert multiple PDFs for work, and it was done
-								in seconds."
+								&quot;This tool saved me so much time! I needed
+								to convert multiple PDFs for work, and it was
+								done in seconds.&quot;
 							</p>
 							<div className='flex items-center space-x-4'>
 								<div className='rounded-full bg-purple-100 w-10 h-10 flex items-center justify-center'>
@@ -47,9 +47,9 @@ export default function Testimonials() {
 						<CardContent className='p-6'>
 							<QuoteIcon className='h-8 w-8 text-purple-300 mb-4' />
 							<p className='text-gray-500 mb-4'>
-								"I was skeptical about free online converters,
-								but this one actually works perfectly. The
-								quality is excellent!"
+								&quot;I was skeptical about free online
+								converters, but this one actually works
+								perfectly. The quality is excellent!&quot;
 							</p>
 							<div className='flex items-center space-x-4'>
 								<div className='rounded-full bg-purple-100 w-10 h-10 flex items-center justify-center'>
@@ -70,9 +70,9 @@ export default function Testimonials() {
 						<CardContent className='p-6'>
 							<QuoteIcon className='h-8 w-8 text-purple-300 mb-4' />
 							<p className='text-gray-500 mb-4'>
-								"As a student, I needed to convert my
+								&quot;As a student, I needed to convert my
 								assignments frequently. This tool is a lifesaver
-								and completely free!"
+								and completely free!&quot;
 							</p>
 							<div className='flex items-center space-x-4'>
 								<div className='rounded-full bg-purple-100 w-10 h-10 flex items-center justify-center'>

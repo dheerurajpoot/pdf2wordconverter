@@ -74,7 +74,7 @@ export default function FAQ() {
 								Do I need to create an account?
 							</AccordionTrigger>
 							<AccordionContent>
-								No, you don't need to create an account or
+								No, you don&apos;t need to create an account or
 								provide any personal information to use our
 								converter. Simply upload your file and convert
 								it instantly.
@@ -86,8 +86,8 @@ export default function FAQ() {
 							</AccordionTrigger>
 							<AccordionContent>
 								Our tool supports PDF to DOCX conversion and
-								DOCX/DOC to PDF conversion. We're working on
-								adding more formats in the future.
+								DOCX/DOC to PDF conversion. We&apos;re working
+								on adding more formats in the future.
 							</AccordionContent>
 						</AccordionItem>
 					</Accordion>
